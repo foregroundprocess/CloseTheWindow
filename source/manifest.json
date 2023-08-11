@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "CloseTheWindow",
+    "version": "1.0",
+  
+    "description": "Adds new button to the toolbar for closing current window",
+  
+    "icons": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png"
+    },
+
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "abagfortrash@gmail.com"
+      }
+    },
+
+    "background": {
+        "scripts": ["background.js"]
+      },
+
+    "browser_action": {
+      "default_area": "menupanel",
+      "default_icon": {
+          "48": "icons/icon-32.png"
+      }
+    }
+  }
+  
